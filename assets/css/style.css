@@ -215,7 +215,6 @@ hr {
 #times h2 {
     color: #fafafa;
 }
-
 footer{
     height: 150px;
 }
@@ -270,4 +269,15 @@ footer{
 hr{
     display: none;
 }
+}
+/* For larger to medium screen size 950px wide and down */
+@media screen and (max-width:950px){
+
+
+ #menu{
+    clear: left;
+    float: left;
+    margin: 30px;
+    margin-bottom: 25px;
+    } 
 }
